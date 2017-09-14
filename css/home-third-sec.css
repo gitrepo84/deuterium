@@ -1,0 +1,306 @@
+.enablers-section{
+	background: #FFF;
+}
+
+.enablers-section-row{
+	margin-right: 0px;
+	padding-bottom: 45px;	
+}
+
+.enablers-section-title{
+ 	text-align: center;
+ 	padding-top: 3%;
+	margin-bottom: -4%;
+ 	font-weight: 700;
+    font-size: 25px;
+    color: #605F5D;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+ }
+
+.enablers-section-body{
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+
+.enablers-section-col{
+	margin-top: 6%;
+}
+
+.enablers-section-subtitle{
+	font-size: 14px;
+    text-align: center;
+    color: #ff6e00;
+    font-weight: bold;
+    margin-top: 4%;
+    text-transform: uppercase;
+}
+
+.enablers-img1{
+	background: url("../static-images/enabler-1.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 20%;
+}
+
+.enablers-img2{
+	background: url("../static-images/enabler-2.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 30%;
+}
+
+.enablers-img3{
+	background: url("../static-images/enabler-3.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 22%;
+}
+
+.enablers-img4{
+	background: url("../static-images/enabler-4.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 18%;
+}
+
+.enablers-img5{
+	background: url("../static-images/enabler-5.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 18%;
+}
+
+.enablers-img6{
+	background: url("../static-images/enabler-6.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 16%;
+}
+
+.enablers-img7{
+	background: url("../static-images/enabler-7.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 21%;
+}
+
+.enablers-img8{
+	background: url("../static-images/enabler-8.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 28%;
+}
+
+.enablers-img9{
+	background: url("../static-images/enabler-9.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 20%;
+}
+
+.enablers-img10{
+	background: url("../static-images/enabler-10.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 28%;
+}
+
+.enablers-img11{
+	background: url("../static-images/enabler-11.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 26%;
+}
+
+.enablers-img12{
+	background: url("../static-images/enabler-12.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 34%;
+}
+
+.enablers-img13{
+	background: url("../static-images/enabler-13.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 28%;
+}
+
+.enablers-img14{
+	background: url("../static-images/enabler-14.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 33%;
+}
+
+.enablers-img15{
+	background: url("../static-images/enabler-15.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 28%;
+}
+
+.enablers-img16{
+	background: url("../static-images/enabler-16.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 32%;
+}
+
+.enablers-img17{
+	background: url("../static-images/enabler-17.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 28%;
+}
+
+.enablers-img18{
+	background: url("../static-images/enabler-18.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 30%;
+}
+
+.enablers-img19{
+	background: url("../static-images/enabler-19.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 38%;
+}
+
+.enablers-img20{
+	background: url("../static-images/enabler-20.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 28%;
+}
+
+.enablers-img21{
+	background: url("../static-images/enabler-21.png") center center/contain no-repeat;
+	width: 100%;
+	height: 74px;
+	background-size: 30%;
+}
+
+/* media queries begin */
+@media screen and (max-width: 767px) {
+
+.enablers-section-title{
+	margin-bottom: -8%;
+	padding-top: 7%;
+	font-size: 21px;
+ }
+
+.enablers-section-col {
+    margin-top: 13%;
+}
+
+.enablers-section-subtitle{
+	font-size: 12px;
+    margin-top: 4%;
+}
+
+.enablers-img1{
+	background-size: 30%;
+}
+
+.enablers-img2{
+	background-size: 53%;
+}
+
+.enablers-img3{
+	background-size: 37%;
+}
+
+.enablers-img4{
+	background-size: 27%;
+}
+
+.enablers-img5{
+	background-size: 32%;
+}
+
+.enablers-img6{
+	background-size: 26%;
+}
+
+.enablers-img7{
+	background-size: 31%;
+}
+
+.enablers-img8{
+	background-size: 50%;
+}
+
+.enablers-img9{
+	background-size: 32%;
+}
+
+.enablers-img10{
+	background-size: 51%;
+}
+
+.enablers-img11{
+	background-size: 39%;
+}
+
+.enablers-img12{
+	background-size: 65%;
+}
+
+.enablers-img13{
+	background-size: 48%;
+}
+
+.enablers-img14{
+	background-size: 58%;
+}
+
+.enablers-img15{
+	background-size: 43%;
+}
+
+.enablers-img16{
+	background-size: 50%;
+}
+
+.enablers-img17{
+	background-size: 49%;
+}
+
+.enablers-img18{
+	background-size: 54%;
+}
+
+.enablers-img19{
+	background-size: 68%;
+}
+
+.enablers-img20{
+	background-size: 45%;
+}
+
+.enablers-img21{
+	background-size: 53%;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+.enablers-section-title{
+	margin-bottom: -12%;
+	font-size: 22px;
+ }
+
+.enablers-section-subtitle {
+    font-size: 12px;
+}    
+
+.enablers-section-col {
+    margin-top: 13%;
+}
+
+}	

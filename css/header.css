@@ -1,0 +1,189 @@
+body {
+  padding-top: 50px;
+  position: relative;
+}
+      
+pre {
+  tab-size: 8;
+}
+
+li {
+   list-style-type: none !important;
+ }
+
+.container{
+  width: 100%;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.dropdown-menu{
+  font-size: 13px;
+  background-color: #222;
+}
+
+.list-item{
+  padding-bottom: 17px;
+  margin-left: -28%;
+}
+
+.dropdown-item{
+  color: white;
+}      
+
+.site-logo {
+  background: url("../static-images/s5.png") no-repeat;
+  height: 48px;
+  margin-top: 2px;
+}
+
+.pull-left{
+  float: right!important;
+}
+
+
+/* media queries begin */
+@media screen and (max-width: 375px) {
+
+.side-collapse-container{
+    width:100%;
+    position:relative;
+    left:0;
+    transition:left .4s;
+}
+
+.side-collapse-container.out{
+    left:200px;
+}
+
+.side-collapse {
+    top:50px;
+    right: 0px;
+    width:200px;
+    position:fixed;
+    overflow:hidden;
+    transition:width .4s;
+    height: auto;
+  }
+
+.side-collapse.in {
+    width:0;
+}
+
+.list-item{
+  margin-left: -16%;
+}
+
+.dropdown-item{
+  font-size: 12px;
+}
+
+.site-logo {
+  background-size: 95%;
+  height: 36px;
+  margin-top: -35px;
+}
+
+}
+
+
+@media (min-width: 375px) and (max-width: 767px){
+
+.side-collapse-container{
+    width:100%;
+    position:relative;
+    left:0;
+    transition:left .4s;
+}
+
+.side-collapse-container.out{
+    left:200px;
+}
+
+.side-collapse {
+    top:50px;
+    right: 0px;
+    width:200px;
+    position:fixed;
+    overflow:hidden;
+    transition:width .4s;
+    height: auto;
+  }
+
+.side-collapse.in {
+    width:0;
+}
+
+.list-item{
+  margin-left: -16%;
+}
+
+.dropdown-item{
+  font-size: 12px;
+}
+
+.site-logo {
+  background-size: 90%;
+  height: 36px;
+  margin-top: -38px;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+.site-logo {
+  background-size: 70%;
+  margin-top: 9px;
+}
+
+.navbar-nav {
+  float: left;
+  margin-left: -57px;
+  margin-top: 1px;
+  font-size: 12px;
+}
+
+.navbar-nav>li {
+    float: left;
+    margin-left: -5px;
+}    
+
+.dropdown-menu {
+    font-size: 11px;
+}
+
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1200px){
+
+.site-logo {
+  background-size: 70%;
+  margin-top: 9px;
+}
+
+.navbar-nav {
+    float: left;
+    margin-left: 13px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.navbar-nav>li {
+    float: left;
+    margin-left: -5px;
+}    
+
+.dropdown-menu {
+    font-size: 12px;
+}
+
+}
+
+
+  

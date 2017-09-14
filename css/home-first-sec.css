@@ -1,0 +1,155 @@
+.banner-scroll-img1{
+  background: url("../static-images/site-qualified06.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 475px;  
+}
+
+.banner-scroll-img2{
+  background: url("../static-images/site-qualified20.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 475px;  
+}
+
+.banner-scroll-img3{
+  background: url("../static-images/site-qualified17.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 475px;  
+}
+
+.banner-scroll-img4{
+  background: url("../static-images/site-qualified08.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 475px;  
+}
+
+.banner-scroll-img5{
+  background: url("../static-images/site-qualified04.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 475px;  
+}
+
+.banner-scroll-img6{
+  background: url("../static-images/site-qualified03.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 475px;  
+}
+
+.banner-scroll-img7{
+  background: url("../static-images/site-qualified02.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 475px;  
+}
+
+.banner-scroll-img8{
+  background: url("../static-images/site-qualified22.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 475px;  
+}
+
+.banner-fontstyle-1{
+  font-size: 54px;
+  font-weight: 700;
+}
+
+.banner-fontstyle-2{
+  font-size: 17px;
+}
+
+
+/* media queries begin */
+@media screen and (max-width: 768px) {
+
+.banner-scroll-img1{
+  height: 350px;  
+}
+
+.banner-scroll-img2{
+  height: 350px;  
+}
+
+.banner-scroll-img3{
+  height: 350px;  
+}
+
+.banner-scroll-img4{
+  height: 350px;  
+}
+
+.banner-scroll-img5{
+  height: 350px;  
+}
+
+.banner-scroll-img6{
+  height: 350px;  
+}
+
+.banner-scroll-img7{
+  height: 350px;  
+}
+
+.banner-scroll-img8{
+  height: 350px;  
+}
+
+.banner-fontstyle-1{
+  font-size: 26px;
+}
+
+.banner-fontstyle-2{
+  font-size: 9px;
+}
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+.banner-scroll-img1{
+  height: 350px;  
+}
+
+.banner-scroll-img2{
+  height: 350px;  
+}
+
+.banner-scroll-img3{
+  height: 350px;  
+}
+
+.banner-scroll-img4{
+  height: 350px;  
+}
+
+.banner-scroll-img5{
+  height: 350px;  
+}
+
+.banner-scroll-img6{
+  height: 350px;  
+}
+
+.banner-scroll-img7{
+  height: 350px;  
+}
+
+.banner-scroll-img8{
+  height: 350px;  
+}
+
+.banner-fontstyle-1{
+  font-size: 26px;
+}
+
+.banner-fontstyle-2{
+  font-size: 9px;
+}
+
+}

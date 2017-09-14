@@ -1,0 +1,35 @@
+.footer-style{
+	width: 100%;
+	float: left;
+	background: #434a54;
+	padding-top: 10px;
+	padding-bottom: 50px;
+    padding-left: 11%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-row{
+	margin-right: 0px;
+}
+
+.footer-header{
+	font-size: 1em;
+    color: #fff;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    float: left;
+    width: 100%;
+}
+
+.footer-ul{
+	list-style: none;
+	padding-left: 0px;	
+}
+
+.footer-li{
+	font-size: 1em;
+	color: #8e959b;
+	margin-top: 10px;
+}

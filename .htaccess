@@ -1,0 +1,19 @@
+DirectoryIndex Home.php
+RewriteEngine on
+RewriteCond %{REQUEST_URI} /deuterium/ContactUs$
+RewriteRule .* /deuterium/ContactUs.php [L]
+
+RewriteCond %{REQUEST_URI} /deuterium/RequestAQuote$
+RewriteRule .* /deuterium/RequestAQuote.php [L]
+
+RewriteCond %{REQUEST_URI} deuterium/AboutUs$
+RewriteRule .* /deuterium/AboutUs.php [L]
+
+RewriteCond %{REQUEST_URI} deuterium/Home$
+RewriteRule .* /deuterium/Home.php [L]
+
+RewriteCond %{REQUEST_URI} deuterium/PrivacyPolicy$
+RewriteRule .* /deuterium/PrivacyPolicy.php [L]
+
+RewriteCond %{REQUEST_URI} deuterium/Disclaimer$
+RewriteRule .* /deuterium/Disclaimer.php [L]
