@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="library/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="library/css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="library/font-awesome-4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/home.css">
+<link rel="stylesheet" type="text/css" href="css/web-design.css">
 <script src="library/js/jquery-2.2.4.min.js"></script>
 <script src="library/js/bootstrap.min.js"></script>
 <script src="library/js/validation.js"></script>
@@ -26,15 +26,19 @@
 </section>
 
 <section>
-<?php include 'Home-First-Sec.php';?>
+<?php include 'web-design-first-sec.php';?>
 </section>
 
 <section>
-<?php include 'Home-Second-Sec.php';?>
+<?php include 'web-design-second-sec.php';?>
 </section>
 
 <section>
-<?php include 'Home-Third-Sec.php';?>
+<?php include 'web-design-third-sec.php';?>
+</section>
+
+<section>
+<?php include 'web-design-fourth-sec.php';?>
 </section>
 
 

@@ -1,0 +1,58 @@
+.fourth-sec-row{
+	margin-right: 0px !important;
+}
+
+.fourth-sec-component-pos{
+	text-align: center;
+}
+
+.btn-lg{
+	padding: 15px 34px;
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.fourth-sec-text-styling-1{
+	margin-top: 2%;
+	font-size: 1em;
+}
+
+.fourth-sec-text-styling-2{
+	margin-top: 1%;
+	font-size: 1em;
+	font-weight: 600;
+	margin-bottom: 2%;	
+}
+
+.modal-title{
+	text-align: center;
+}
+
+.container-fluid{
+	padding-right: 14%;
+	padding-left: 15%;
+}
+
+.text-muted{
+	margin-top: 1%;
+	font-size: 12px;
+}
+
+
+/* media queries begin */
+@media screen and (max-width: 767px) {
+
+.btn-lg{
+	padding: 13px 30px;
+}
+
+.fourth-sec-text-styling-1{
+	margin-top: 5%;
+}
+
+.container-fluid{
+	padding-right: 9%;
+	padding-left: 7%;
+}
+
+}
