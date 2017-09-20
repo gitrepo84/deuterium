@@ -43,7 +43,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h2 class="modal-title" id="get-started-Modal-Label">Create Account</h2>
+        <h2 class="modal-title" id="get-started-Modal-Label">Get Started</h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -86,7 +86,7 @@
 				<div class="form-group row">
 					<div>
 						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						<button type="submit" class="btn btn-primary">Save changes</button>
+						<button type="submit" class="btn btn-primary">Create Account</button>
 					</div>
 				</div>
 				</div>

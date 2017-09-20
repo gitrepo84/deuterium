@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	
-	alert('function asa');
 	$('#create-account').each(function() { this.reset() });
 	
 	$(document).on('submit', '#create-account', function(){
@@ -24,8 +23,7 @@ $(document).ready(function(){
 						$('#message-placeholder').before('<div class="alert alert-success alert-success-style hidden" role="alert" id="sl_success_alert"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><span class="glyphicon glyphicon-exclamation-sign"></span><span id="sl_success_msg"></span></div>');
 					}					
 					$('#sl_success_alert').removeClass('hidden');
-					$("#sl_success_msg").html(" We received your request. We will get back to you soon!!");				
-				
+					$("#sl_success_msg").html(" Account Creation Successful. <br> We will get in touch with you soon to take your application further!!");				
 			}}		 
 	});}
 	   return false;
