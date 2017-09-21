@@ -46,6 +46,7 @@
 <?php include 'Footer.php';?>		
 </section>
 
+<script src="js/tawkto.js"></script>
 
 </body>
 

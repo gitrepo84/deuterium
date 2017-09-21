@@ -1,0 +1,6 @@
+hello | Date: 2017-09-21 16:28:00
+At least One of the Input Params is Invalid. | Date: 2017-09-21 16:34:54
+At least One of the Input Params is Invalid. | Date: 2017-09-21 16:35:35
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'schools.deut_user_registration_inf' doesn't exist | Date: 2017-09-21 16:36:23
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'schools.deut_user_registration_inf' doesn't exist | Date: 2017-09-21 16:39:34
+At least One of the Input Params is Invalid. | Date: 2017-09-21 16:42:25

@@ -13,7 +13,6 @@
 <script src="library/js/bootstrap.min.js"></script>
 <script src="library/js/validation.js"></script>
 
-
 <?php include_once("config/analyticstracking.php"); ?>
 
 <title>Deuterium - Design, Develop, Automate</title>
@@ -26,15 +25,15 @@
 </section>
 
 <section>
-<?php include 'Home-First-Sec.php';?>
+<?php include 'home-first-sec.php';?>
 </section>
 
 <section>
-<?php include 'Home-Second-Sec.php';?>
+<?php include 'home-second-sec.php';?>
 </section>
 
 <section>
-<?php include 'Home-Third-Sec.php';?>
+<?php include 'home-third-sec.php';?>
 </section>
 
 
@@ -42,6 +41,8 @@
 <?php include 'Footer.php';?>		
 </section>
 
+
+<script src="js/tawkto.js"></script>
 
 </body>
 

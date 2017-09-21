@@ -8,7 +8,7 @@ $(document).ready(function(){
 	if($(".list-unstyled").length == 0){
 	$.ajax({
 		  type : 'POST',
-		  url  : 'Create_Account.php',
+		  url  : 'UserRegistration.php',
 		  data : data,
 		  async: true,
 		  cache: false,
@@ -24,7 +24,16 @@ $(document).ready(function(){
 					}					
 					$('#sl_success_alert').removeClass('hidden');
 					$("#sl_success_msg").html(" Account Creation Successful. <br> We will get in touch with you soon to take your application further!!");				
-			}}		 
+			}else{
+					$(window).scrollTop(0);
+					if (!($("#sl_danger_alert").length > 0)){	
+						console.log("add");
+						$('#message-placeholder').before('<div class="alert alert-danger alert-success-style hidden" role="alert" id="sl_danger_alert"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><span class="glyphicon glyphicon-exclamation-sign"></span><span id="sl_danger_msg"></span></div>');
+					}					
+					$('#sl_danger_alert').removeClass('hidden');
+					$("#sl_danger_msg").html(" Account Creation Failed!.");				
+			}
+		}		 
 	});}
 	   return false;
       });
